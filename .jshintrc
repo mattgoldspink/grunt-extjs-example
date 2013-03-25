@@ -1,0 +1,9 @@
+{
+    "predef": ["Ext"],
+    "browser": true,
+    "evil": true,
+    "strict": false,
+    "indent": 4,
+    "quotmark": "double",
+    "undef": true
+}

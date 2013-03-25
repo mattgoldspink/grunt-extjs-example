@@ -1,0 +1,41 @@
+{
+  "name": "grunt-extjs-example",
+  "description": "An Ext.js example showing how to use Grunt.js on an Ext 4.x project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mattgoldspink/grunt-extjs-example",
+  "author": {
+    "name": "Matt Goldspink",
+    "email": "mattgoldspink1@gmail.com",
+    "url": "http://www.mattgoldspink.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattgoldspink/grunt-extjs-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattgoldspink/grunt-extjs-example/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattgoldspink/grunt-extjs-example/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "phantomjs": "1.8.2-0",
+    "grunt-contrib-uglify": "0.1.1",
+    "grunt-contrib-copy": "0.4.0",
+    "grunt-sencha-dependencies": "0.6.1",
+    "grunt-sencha-jasmine": "0.1.0",
+    "grunt-contrib-jshint": "0.1.1",
+    "grunt-contrib-clean": "0.4.0",
+    "grunt": "0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
