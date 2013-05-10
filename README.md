@@ -55,6 +55,7 @@ At the moment the grunt file runs the following tasks:
 - Uglify.js           - Concatenate, minify and generate Source Maps so you can debug the minified code against the original source code
 - Copy                - Copy over additional required files (CSS, images, extra JS files) and also the index.html which we'll process to inject our concatenated JS file
 - Istanbul            - When the tests are run we also generate code coverage and output an html report in build/reports/lcov
+- Plato               - Generates code complexity reports
 
 ## What else could be added
 
@@ -62,5 +63,3 @@ There's more tasks that I'll likely add over time. At my current company we also
 
 - JSDuck              - Generate documentation for all the files
 - Compass             - Compile our Compass style sheets
-- Plato               - Generate code complexity reports
-
